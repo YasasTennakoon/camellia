@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styling */
+html,
+body,
+#root {
+    height: 100%;
+}
+
+/* small helpers */
+.container-max {
+    @apply max-w-7xl mx-auto px-4;
+}
+
+/* smooth-scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+/* Hide scrollbars but keep scroll functionality */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
