@@ -33,7 +33,7 @@ export default function App() {
                 <nav className="relative flex items-center justify-between h-20 text-white max-w-[90rem] mx-auto px-4">
                     <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 flex items-center gap-3 overflow-visible z-20">
                         <img
-                            src="src/assets/hotel_logo.png"
+                            src="/hotel_logo.png"
                             alt="Kamilia Logo"
                             className="w-[180px] sm:w-[200px] lg:w-[250px] h-auto object-contain select-none"
                             draggable="false"
