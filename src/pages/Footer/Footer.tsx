@@ -24,7 +24,7 @@ export default function Footer() {
                         <div className="mt-4 space-y-2 text-sm">
                             <div className="flex items-center gap-2">
                                 <FaEnvelope className="text-white/80" />
-                                <span>stay@camelliakandy.com</span>
+                                <span>camelliahotelkandy@gmail.com</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <FaPhone className="text-white/80" />
