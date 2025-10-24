@@ -3,19 +3,19 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
     {
-        src: "src/assets/perahara.jpg",
+        src: "/perahara.jpg",
         title: "Esala Perahera, Kandy",
         caption:
             "Witness the grandeur of Kandy’s Esala Perahera. A centuries old procession honoring the Sacred Tooth Relic, where culture, faith, and artistry illuminate the city’s night sky.",
     },
     {
-        src: "src/assets/golf.jpg",
+        src: "/golf.jpg",
         title: "Golfing in the Hills, Kandy",
         caption:
             "Enjoy a peaceful game at Victoria Golf Club, surrounded by Kandy’s green hills. Feel the fresh breeze and calm views as every swing becomes a relaxing moment in nature.",
     },
     {
-        src: "src/assets/kayaking.png",
+        src: "/kayaking.png",
         title: "Flat water Kayaking, Kandy",
         caption:
             "Glide through the still waters of Kandy Lake beneath golden skies. Each paddle stroke echoes peace, while the reflections of temples and trees whisper the calm rhythm of the city’s heart.",

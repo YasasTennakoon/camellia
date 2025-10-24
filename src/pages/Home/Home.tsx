@@ -5,7 +5,7 @@ export default function Home() {
         <section
             id="home"
             className="relative mt-4 min-h-[80vh] bg-cover bg-center"
-            style={{ backgroundImage: "url('src/assets/kandy_lake.jpg')" }}
+            style={{ backgroundImage: "url('/kandy_lake.jpg')" }}
         >
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
             <div className="container-max relative z-10 min-h-[80vh] flex items-end pb-10">
