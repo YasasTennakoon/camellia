@@ -57,7 +57,6 @@ export default function App() {
 
                     <div className="hidden lg:flex items-center gap-4">
                         <a
-                            href="#contact"
                             className="
                                 bg-[#612d87] text-white
                                 px-3 py-1 sm:px-3.5 sm:py-1.5 lg:px-4 lg:py-1.5
@@ -67,6 +66,11 @@ export default function App() {
                                 hover:bg-[#8d42c4] transition-all duration-200
                                 whitespace-nowrap
                             "
+                            onClick={() =>
+                                window.open(
+                                    "https://www.booking.com/hotel/lk/sesatha-lake-kandy.en-gb.html?aid=2311236&label=en-lk-booking-desktop-IncWB4CtfrbYgbu3xC6gmwS652796017434%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-334108349%3Alp9069790%3Ali%3Adec%3Adm&sid=b00b4883fc8e6538f6c9efd4a83b9b47&all_sr_blocks=1119284203_395031659_0_2_0%2C1119284204_395031659_2_2_0&checkin=2025-10-25&checkout=2025-10-26&dist=0&group_adults=3&group_children=0&hapos=3&highlighted_blocks=1119284203_395031659_0_2_0%2C1119284204_395031659_2_2_0&hpos=3&matching_block_id=1119284203_395031659_0_2_0&no_rooms=1&req_adults=3&req_children=0&room1=A%2CA%2CA&sb_price_type=total&sr_order=distance_from_search&sr_pri_blocks=1119284203_395031659_0_2_0__3150%2C1119284204_395031659_2_2_0__3500&srepoch=1761374743&srpvid=661c2f838f750135&type=total&ucfs=1&",
+                                    "_blank"
+                                )}
                         >
                             Book&nbsp;Now
                         </a>
